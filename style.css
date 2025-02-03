@@ -1,5 +1,5 @@
 body{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo{
@@ -20,16 +20,101 @@ a{
     margin-left: auto;
 }
 
-img{
-    float: right;
-    width: 800px;
-    height: 500px;
+.peloImagen {
+    display: block; 
+    margin: 0 auto 10px auto; 
+    max-width: 800px;
+    width: 100%;
+    height: auto;
 }
 
-footer{
-    text-align: left;
+.menuPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+    padding: 10px; 
+    margin-top: 5px; 
+
 }
 
-.menuPrincipal{
-    background-color: rgb(128, 41, 41);
+.menuPrincipal div {
+    width: 220px; 
+    padding: 15px;
+    border: 2px solid #999; 
+    border-radius: 8px; 
+    background-color: white; 
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(50, 50, 70);
+    color: white;
+}
+
+
+
+.contenedor{
+    display: block;
+    border: 5px solid rgb(0, 0, 0); 
+    background-color: rgb(98, 96, 117);
+}
+
+
+main section img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.caja {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(98, 96, 117);
+    padding: 20px; 
+}
+
+section {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 90vh;
+}
+
+img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .menuPrincipal {
+        grid-template-columns: 1fr; 
+    }
+
+    .menuPrincipal div {
+        margin-bottom: 20px;
+    }
+
+    .peloImagen {
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
