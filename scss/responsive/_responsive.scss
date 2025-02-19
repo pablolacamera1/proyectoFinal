@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 28px;
+    }
+
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+
+    .menuPrincipal {
+        grid-template-columns: 1fr;
+    }
+
+
+    .menuPrincipal div {
+        margin-bottom: 20px;
+    }
+
+
+    .peloImagen {
+        max-width: 100%;
+    }
+
+
+    footer {
+        font-size: 12px;
+    }
+}
+
