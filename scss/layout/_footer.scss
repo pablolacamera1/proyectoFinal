@@ -1,7 +1,10 @@
 @import "../utilities/variables"; 
+
+
 footer {
     text-align: center;
     padding: 20px;
     background-color: $colorSecundario;
-    color: white;
+    color: $colorBlanco
+  
 }

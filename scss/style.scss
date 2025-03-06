@@ -1,14 +1,13 @@
-
-
-@import "./layout/footer";
-
-@import "./base/reset";
-
-@import "./layout/header";
-
-@import "./layout/main-inder";
-
-@import "./responsive/responsive";
+@import "utilities/variables";
+@import "base/reset";
+@import "base/tipografias";
+@import "animations/keyframes";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main-inder";     
+@import "responsive/responsive";
 
 
 
+
+/*# sourceMappingURL=style.scss.map */

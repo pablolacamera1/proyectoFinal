@@ -1,31 +1,78 @@
 @media (max-width: 768px) {
-    .titulo {
-        font-size: 28px;
+  body {
+    font-size: 12px;
+  }
+
+  .titulo {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .subtitulo {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+    label {
+      font-size: 16px;
+      margin-top: 10px;
     }
 
-
-    .subtitulo {
-        font-size: 18px;
+    input, 
+    textarea {
+      width: 100%;
+      max-width: 400px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
     }
+  }
 
+  .menuPrincipal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    grid-template-columns: 1fr;
 
-    .menuPrincipal {
-        grid-template-columns: 1fr;
+    div {
+      margin-bottom: 20px;
     }
+  }
 
+  .peloImagen {
+    max-width: 100%;
+  }
 
-    .menuPrincipal div {
-        margin-bottom: 20px;
-    }
+  .caja-contacto {
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    margin: 15px auto;
+  }
 
-
-    .peloImagen {
-        max-width: 100%;
-    }
-
-
-    footer {
-        font-size: 12px;
-    }
+  input, 
+  textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .boton-enviar {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  
+  footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
 }
-

@@ -1,40 +1,22 @@
+@import "../utilities/variables"; 
+@import '../animations/keyframes';
+
 .titulo {
-    text-align: center;
-    font-size: 60px;
-    margin: 20px;
-    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 20px;
+  letter-spacing: 2px;
+  color: $colorNegro;
+  text-transform: uppercase;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .subtitulo {
-    text-align: center;
-    font-size: 30px;
-    margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  color: #666;
 }
 
-@-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
+
